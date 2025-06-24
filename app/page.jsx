@@ -202,11 +202,6 @@ export default function HomePage() {
                 <div
                   key={idx}
                   className='bg-blue-900 rounded-lg p-5 shadow-md flex flex-col items-center'>
-                  <img
-                    src={review.avatar}
-                    alt='User'
-                    className='w-14 h-14 rounded-full mb-2'
-                  />
                   <span className='font-semibold text-white'>
                     {review.name}
                   </span>
